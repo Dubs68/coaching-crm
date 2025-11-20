@@ -1,8 +1,13 @@
-{
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    }
-  ]
-}
+1{
+2  "buildCommand": "npm run build",
+3  "outputDirectory": "dist",
+4  "devCommand": "npm run dev",
+5  "installCommand": "npm install",
+6  "framework": "vite",
+7  "rewrites": [
+8    {
+9      "source": "/(.*)",
+10      "destination": "/index.html"
+11    }
+12  ]
+13}
